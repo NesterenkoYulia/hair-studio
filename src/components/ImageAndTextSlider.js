@@ -1,8 +1,8 @@
 import React from "react"
-
 import Slider from "react-slick"
 import "./ImageAndTextSlider.css"
 import ToggleText from "./ToggleText"
+
 const ImageAndTextSlider = ({ slides }) => {
   const settings = {
     dots: true,
@@ -12,9 +12,9 @@ const ImageAndTextSlider = ({ slides }) => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 768, // Если ширина экрана меньше 768px
+        breakpoint: 768,
         settings: {
-          slidesToShow: 1, // Только 1 слайд на мобильных устройствах
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
@@ -23,7 +23,6 @@ const ImageAndTextSlider = ({ slides }) => {
   }
 
   return (
-    //
     <div className='new-slider-container'>
       <Slider {...settings}>
         {slides.map((slide, index) => (

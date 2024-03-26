@@ -1,5 +1,6 @@
 import styles from "./Header.module.css"
 import avaYulia from "./../img/ava.png"
+
 const Header = () => {
   return (
     <>
