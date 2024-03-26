@@ -29,7 +29,7 @@ const Main = () => {
           <a href='#programm' className={[styles.main_btn1]}>
             Переглянути програму
           </a>
-          <a href='https://t.me/yuliianes' className={[styles.main_btn2]}>
+          <a href='#' className={[styles.main_btn2]}>
             Придбати курс{" "}
           </a>
         </div>
