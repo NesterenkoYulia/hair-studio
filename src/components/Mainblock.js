@@ -375,18 +375,19 @@ const Mainblock = () => {
                 <br />
                 Доступ - 6 місяців
               </p>
-              <a href='https://t.me/yuliianes' className={styles.tarifbtn}>
+              <a href='https://secure.wayforpay.com/button/' className={styles.tarifbtn}>
                 Придбати курс
               </a>
             </div>
             <div className={[styles.tarifright]}>
               <h3 className={[styles.tariftitleprice]}>Standart</h3>
-              <h4 className={[styles.tariftitlepricecena]}>2500 UAH</h4>
+              <h5 style={{ textDecoration: 'line-through', fontSize: '24px', color: '#e25f5b' }} className={[styles.tariftitlepricecena]}>2500 UAH</h5>
+              <h4 className={[styles.tariftitlepricecena]}>499 UAH</h4>
               <p className={[styles.tariftext]}>
                 Теорія <br /> З Практичних занять <br />
                 Доступ - 3 місяців
               </p>
-              <a href='https://t.me/yuliianes' className={[styles.tarifbtn]}>
+              <a href='https://secure.wayforpay.com/button/' className={[styles.tarifbtn]}>
                 Придбати курс
               </a>
             </div>
