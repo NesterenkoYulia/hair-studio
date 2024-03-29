@@ -29,7 +29,7 @@ const Main = () => {
           <a href='#programm' className={[styles.main_btn1]}>
             Переглянути програму
           </a>
-          <a href='https://secure.wayforpay.com/button/' className={[styles.main_btn2]}>
+          <a href='https://t.me/yuliianes' className={[styles.main_btn2]}>
             Придбати курс{" "}
           </a>
         </div>
@@ -95,12 +95,12 @@ const Main = () => {
               Стилізуємо і фінішуємо укладання, а також фіксуємо її і робимо
               волосся рухливим.
             </p>
-            <a href='https://secure.wayforpay.com/button/' className={[styles.main_btn3]}>
+            <a href='https://t.me/yuliianes' className={[styles.main_btn3]}>
               Придбати курс{" "}
             </a>
           </div>
         </div>
-        <a className={[styles.main_btn4]} href='https://secure.wayforpay.com/button/'>
+        <a className={[styles.main_btn4]} href='https://t.me/yuliianes'>
           Придбати курс
         </a>
       </div>

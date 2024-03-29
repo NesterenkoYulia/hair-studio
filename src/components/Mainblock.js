@@ -375,7 +375,7 @@ const Mainblock = () => {
                 <br />
                 Доступ - 6 місяців
               </p>
-              <a href='https://secure.wayforpay.com/button/' className={styles.tarifbtn}>
+              <a href='https://t.me/yuliianes' className={styles.tarifbtn}>
                 Придбати курс
               </a>
             </div>
@@ -387,7 +387,7 @@ const Mainblock = () => {
                 Теорія <br /> З Практичних занять <br />
                 Доступ - 3 місяців
               </p>
-              <a href='https://secure.wayforpay.com/button/' className={[styles.tarifbtn]}>
+              <a href='https://t.me/yuliianes' className={[styles.tarifbtn]}>
                 Придбати курс
               </a>
             </div>

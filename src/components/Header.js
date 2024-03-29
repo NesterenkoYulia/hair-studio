@@ -15,7 +15,7 @@ const Header = () => {
             <p className={[styles.header_text]}>
               Актуально для майстрів, які працюють з волоссям
             </p>
-            <a className={[styles.header_buttom]} href='https://secure.wayforpay.com/button/'>
+            <a className={[styles.header_buttom]} href='https://t.me/yuliianes'>
               Придбати курс
             </a>
           </div>
