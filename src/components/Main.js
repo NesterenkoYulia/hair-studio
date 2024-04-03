@@ -1,6 +1,6 @@
-import styles from "./Main.module.css"
-import firstGif from "./../video/IMG_6865.gif"
-import secondGif from "./../video/IMG_6866.gif"
+import styles from "./Main.module.css";
+import firstGif from "./../video/IMG_6865.gif";
+import secondGif from "./../video/IMG_6866.gif";
 const Main = () => {
   return (
     <main className={styles.main}>
@@ -26,10 +26,13 @@ const Main = () => {
           укладання без начісів та гофре. І даруйте емоції своїм клієнтам щодня”
         </p>
         <div className={[styles.main_two_button]}>
-          <a href='#programm' className={[styles.main_btn1]}>
+          <a href="#programm" className={[styles.main_btn1]}>
             Переглянути програму
           </a>
-          <a href='https://t.me/yuliianes' className={[styles.main_btn2]}>
+          <a
+            href="hhttps://secure.wayforpay.com/button/bb16f150bc075"
+            className={[styles.main_btn2]}
+          >
             Придбати курс{" "}
           </a>
         </div>
@@ -62,7 +65,7 @@ const Main = () => {
             </p>
           </div>
           <div className={[styles.about_img]}>
-            <img src={firstGif} alt='Ваш GIF' />
+            <img src={firstGif} alt="Ваш GIF" />
           </div>
         </div>
         {/* revers */}
@@ -72,7 +75,7 @@ const Main = () => {
 
         <div className={[styles.container_about_two2]}>
           <div className={[styles.about_img]}>
-            <img src={secondGif} alt='Ваш GIF' />
+            <img src={secondGif} alt="Ваш GIF" />
           </div>
 
           <div className={[styles.section_about_one]}>
@@ -95,16 +98,19 @@ const Main = () => {
               Стилізуємо і фінішуємо укладання, а також фіксуємо її і робимо
               волосся рухливим.
             </p>
-            <a href='https://t.me/yuliianes' className={[styles.main_btn3]}>
+            <a
+              href="https://secure.wayforpay.com/button/bb16f150bc075"
+              className={[styles.main_btn3]}
+            >
               Придбати курс{" "}
             </a>
           </div>
         </div>
-        <a className={[styles.main_btn4]} href='https://t.me/yuliianes'>
+        <a className={[styles.main_btn4]} href="https://secure.wayforpay.com/button/bb16f150bc075">
           Придбати курс
         </a>
       </div>
     </main>
-  )
-}
-export default Main
+  );
+};
+export default Main;

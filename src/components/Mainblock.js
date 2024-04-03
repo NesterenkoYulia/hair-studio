@@ -1,25 +1,25 @@
-import styles from "./Mainblock.module.css"
-import ImageSlider from "./ImageSlider"
-import ImageAndTextSlider from "./ImageAndTextSlider"
-import firstImg from "./../img/lesson_one/1.png"
-import secondImg from "./../img/lesson_one/2.png"
-import threetImg from "./../img/lesson_one/3.png"
-import imgLessonTwo1 from "./../img/lesson_two/1.png"
-import imgLessonTwo2 from "./../img/lesson_two/2.png"
-import imgLessonTwo3 from "./../img/lesson_two/3.png"
-import imgLessonThree1 from "./../img/losseon_three/1.png"
-import imgLessonThree2 from "./../img/losseon_three/2.png"
-import imgLessonThree3 from "./../img/losseon_three/3.png"
+import styles from "./Mainblock.module.css";
+import ImageSlider from "./ImageSlider";
+import ImageAndTextSlider from "./ImageAndTextSlider";
+import firstImg from "./../img/lesson_one/1.png";
+import secondImg from "./../img/lesson_one/2.png";
+import threetImg from "./../img/lesson_one/3.png";
+import imgLessonTwo1 from "./../img/lesson_two/1.png";
+import imgLessonTwo2 from "./../img/lesson_two/2.png";
+import imgLessonTwo3 from "./../img/lesson_two/3.png";
+import imgLessonThree1 from "./../img/losseon_three/1.png";
+import imgLessonThree2 from "./../img/losseon_three/2.png";
+import imgLessonThree3 from "./../img/losseon_three/3.png";
 
-import feedImg1 from "./../img/img_feedback/1.png"
-import feedImg2 from "./../img/img_feedback/2.png"
-import feedImg3 from "./../img/img_feedback/3.png"
-import feedImg4 from "./../img/img_feedback/4.png"
-import feedImg5 from "./../img/img_feedback/5.png"
+import feedImg1 from "./../img/img_feedback/1.png";
+import feedImg2 from "./../img/img_feedback/2.png";
+import feedImg3 from "./../img/img_feedback/3.png";
+import feedImg4 from "./../img/img_feedback/4.png";
+import feedImg5 from "./../img/img_feedback/5.png";
 const Mainblock = () => {
-  const images1 = [firstImg, secondImg, threetImg]
-  const images2 = [imgLessonTwo1, imgLessonTwo2, imgLessonTwo3]
-  const images3 = [imgLessonThree1, imgLessonThree2, imgLessonThree3]
+  const images1 = [firstImg, secondImg, threetImg];
+  const images2 = [imgLessonTwo1, imgLessonTwo2, imgLessonTwo3];
+  const images3 = [imgLessonThree1, imgLessonThree2, imgLessonThree3];
 
   const slides = [
     {
@@ -52,12 +52,12 @@ const Mainblock = () => {
       description:
         "Юлічка, хочу залишити слова подяки для тебе За те, що поділилася своїми знаннями та досвідом Людина я дуже прискіплива, але в виборі наставника не сумнівалася ні секунди Це саме той випадок, коли навчальний процес проходить на одному диханні Пам'ятаю, що одного разу я розхвилювалася і почали труситися руки, але ти вміло знайшла потрібні слова і все далі пішло як по маслуЗнаю на 200% до кого прийду на підвищення Бо крім отриманих цінних знань, це ще й атмосфера, стиль та психологія Дякую безмежно Бажаю океан роботи, яка приносить задоволення, безліч вдячних клієнтів та учнів",
     },
-  ]
+  ];
 
   return (
     <div className={[styles.main_block]}>
       <div className={[styles.container_mainblock]}>
-        <h2 id='programm' className={[styles.main_block_title]}>
+        <h2 id="programm" className={[styles.main_block_title]}>
           програма курсу
         </h2>
         <div className={styles.lesson}>
@@ -91,23 +91,23 @@ const Mainblock = () => {
           <p className={[styles.lesson_subtitle]}>(Легкі та м’які хвилі)</p>
           <div className={[styles.lesson_video]}>
             <iframe
-              width='1170'
-              height='650'
-              src='https://www.youtube.com/embed/tx68oyg6cqg?si=PN6JUXew6P15mQwP'
-              title='YouTube video player'
-              frameborder='0'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              width="1170"
+              height="650"
+              src="https://www.youtube.com/embed/tx68oyg6cqg?si=PN6JUXew6P15mQwP"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
           </div>
           <div className={[styles.lesson_video_mobile]}>
             <iframe
-              width='100%'
-              height='400'
-              src='https://www.youtube.com/embed/tx68oyg6cqg?si=PN6JUXew6P15mQwP'
-              title='YouTube video player'
-              frameborder='0'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              width="100%"
+              height="400"
+              src="https://www.youtube.com/embed/tx68oyg6cqg?si=PN6JUXew6P15mQwP"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
           </div>
@@ -152,18 +152,18 @@ const Mainblock = () => {
           </div>
           <div className={[styles.strelka_parant]}>
             <div className={styles.strelka}>
-              <a href='https://t.me/yuliianes'>Перейти до курсу</a>
+              <a href="https://secure.wayforpay.com/button/bb16f150bc075">Перейти до придбання курсу</a>
               <div className={[styles.strelka_svg]}>
                 <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='274'
-                  height='8'
-                  viewBox='0 0 274 8'
-                  fill='none'
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="274"
+                  height="8"
+                  viewBox="0 0 274 8"
+                  fill="none"
                 >
                   <path
-                    d='M274.355 4.35226C274.549 4.15629 274.548 3.83971 274.352 3.64516L271.159 0.474812C270.963 0.280264 270.646 0.281419 270.452 0.477393C270.257 0.673367 270.258 0.989947 270.454 1.1845L273.293 4.00258L270.475 6.84131C270.28 7.03729 270.281 7.35387 270.477 7.54841C270.673 7.74296 270.99 7.74181 271.184 7.54583L274.355 4.35226ZM0.00182481 5.5L274.002 4.5L273.998 3.5L-0.00182481 4.5L0.00182481 5.5Z'
-                    fill='#1B1818'
+                    d="M274.355 4.35226C274.549 4.15629 274.548 3.83971 274.352 3.64516L271.159 0.474812C270.963 0.280264 270.646 0.281419 270.452 0.477393C270.257 0.673367 270.258 0.989947 270.454 1.1845L273.293 4.00258L270.475 6.84131C270.28 7.03729 270.281 7.35387 270.477 7.54841C270.673 7.74296 270.99 7.74181 271.184 7.54583L274.355 4.35226ZM0.00182481 5.5L274.002 4.5L273.998 3.5L-0.00182481 4.5L0.00182481 5.5Z"
+                    fill="#1B1818"
                   />
                 </svg>
               </div>
@@ -177,23 +177,23 @@ const Mainblock = () => {
           </p>
           <div className={[styles.lesson_video]}>
             <iframe
-              width='1170'
-              height='650'
-              src='https://www.youtube.com/embed/_UQSoAdunIE?si=uK3bGUhcPWmE_H6_'
-              title='YouTube video player'
-              frameborder='0'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              width="1170"
+              height="650"
+              src="https://www.youtube.com/embed/_UQSoAdunIE?si=uK3bGUhcPWmE_H6_"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
           </div>
           <div className={[styles.lesson_video_mobile]}>
             <iframe
-              width='100%'
-              height='400'
-              src='https://www.youtube.com/embed/_UQSoAdunIE?si=uK3bGUhcPWmE_H6_'
-              title='YouTube video player'
-              frameborder='0'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              width="100%"
+              height="400"
+              src="https://www.youtube.com/embed/_UQSoAdunIE?si=uK3bGUhcPWmE_H6_"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
           </div>
@@ -230,18 +230,18 @@ const Mainblock = () => {
           </div>
           <div className={[styles.strelka_parant]}>
             <div className={styles.strelka}>
-              <a href='https://t.me/yuliianes'>Перейти до курсу</a>
+              <a href="https://secure.wayforpay.com/button/bb16f150bc075">Перейти до придбання курсу</a>
               <div className={[styles.strelka_svg]}>
                 <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='274'
-                  height='8'
-                  viewBox='0 0 274 8'
-                  fill='none'
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="274"
+                  height="8"
+                  viewBox="0 0 274 8"
+                  fill="none"
                 >
                   <path
-                    d='M274.355 4.35226C274.549 4.15629 274.548 3.83971 274.352 3.64516L271.159 0.474812C270.963 0.280264 270.646 0.281419 270.452 0.477393C270.257 0.673367 270.258 0.989947 270.454 1.1845L273.293 4.00258L270.475 6.84131C270.28 7.03729 270.281 7.35387 270.477 7.54841C270.673 7.74296 270.99 7.74181 271.184 7.54583L274.355 4.35226ZM0.00182481 5.5L274.002 4.5L273.998 3.5L-0.00182481 4.5L0.00182481 5.5Z'
-                    fill='#1B1818'
+                    d="M274.355 4.35226C274.549 4.15629 274.548 3.83971 274.352 3.64516L271.159 0.474812C270.963 0.280264 270.646 0.281419 270.452 0.477393C270.257 0.673367 270.258 0.989947 270.454 1.1845L273.293 4.00258L270.475 6.84131C270.28 7.03729 270.281 7.35387 270.477 7.54841C270.673 7.74296 270.99 7.74181 271.184 7.54583L274.355 4.35226ZM0.00182481 5.5L274.002 4.5L273.998 3.5L-0.00182481 4.5L0.00182481 5.5Z"
+                    fill="#1B1818"
                   />
                 </svg>
               </div>
@@ -257,23 +257,23 @@ const Mainblock = () => {
           </p>
           <div className={[styles.lesson_video]}>
             <iframe
-              width='1170'
-              height='650'
-              src='https://www.youtube.com/embed/ACUlQ6CdFpk?si=8-k1veltObVqcyRy'
-              title='YouTube video player'
-              frameborder='0'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              width="1170"
+              height="650"
+              src="https://www.youtube.com/embed/ACUlQ6CdFpk?si=8-k1veltObVqcyRy"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
           </div>
           <div className={[styles.lesson_video_mobile]}>
             <iframe
-              width='100%'
-              height='400'
-              src='https://www.youtube.com/embed/ACUlQ6CdFpk?si=8-k1veltObVqcyRy'
-              title='YouTube video player'
-              frameborder='0'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              width="100%"
+              height="400"
+              src="https://www.youtube.com/embed/ACUlQ6CdFpk?si=8-k1veltObVqcyRy"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
           </div>
@@ -317,18 +317,18 @@ const Mainblock = () => {
           </div>
           <div className={[styles.strelka_parant]}>
             <div className={styles.strelka}>
-              <a href='https://t.me/yuliianes'>Перейти до курсу</a>
+              <a href="https://secure.wayforpay.com/button/bb16f150bc075">Перейти до придбання курсу</a>
               <div className={[styles.strelka_svg]}>
                 <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='274'
-                  height='8'
-                  viewBox='0 0 274 8'
-                  fill='none'
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="274"
+                  height="8"
+                  viewBox="0 0 274 8"
+                  fill="none"
                 >
                   <path
-                    d='M274.355 4.35226C274.549 4.15629 274.548 3.83971 274.352 3.64516L271.159 0.474812C270.963 0.280264 270.646 0.281419 270.452 0.477393C270.257 0.673367 270.258 0.989947 270.454 1.1845L273.293 4.00258L270.475 6.84131C270.28 7.03729 270.281 7.35387 270.477 7.54841C270.673 7.74296 270.99 7.74181 271.184 7.54583L274.355 4.35226ZM0.00182481 5.5L274.002 4.5L273.998 3.5L-0.00182481 4.5L0.00182481 5.5Z'
-                    fill='#1B1818'
+                    d="M274.355 4.35226C274.549 4.15629 274.548 3.83971 274.352 3.64516L271.159 0.474812C270.963 0.280264 270.646 0.281419 270.452 0.477393C270.257 0.673367 270.258 0.989947 270.454 1.1845L273.293 4.00258L270.475 6.84131C270.28 7.03729 270.281 7.35387 270.477 7.54841C270.673 7.74296 270.99 7.74181 271.184 7.54583L274.355 4.35226ZM0.00182481 5.5L274.002 4.5L273.998 3.5L-0.00182481 4.5L0.00182481 5.5Z"
+                    fill="#1B1818"
                   />
                 </svg>
               </div>
@@ -375,19 +375,31 @@ const Mainblock = () => {
                 <br />
                 Доступ - 6 місяців
               </p>
-              <a href='https://t.me/yuliianes' className={styles.tarifbtn}>
+              <a href="https://t.me/yuliianes" className={styles.tarifbtn}>
                 Придбати курс
               </a>
             </div>
             <div className={[styles.tarifright]}>
               <h3 className={[styles.tariftitleprice]}>Standart</h3>
-              <h5 style={{ textDecoration: 'line-through', fontSize: '24px', color: '#e25f5b' }} className={[styles.tariftitlepricecena]}>2500 UAH</h5>
+              <h5
+                style={{
+                  textDecoration: "line-through",
+                  fontSize: "24px",
+                  color: "#e25f5b",
+                }}
+                className={[styles.tariftitlepricecena]}
+              >
+                2500 UAH
+              </h5>
               <h4 className={[styles.tariftitlepricecena]}>499 UAH</h4>
               <p className={[styles.tariftext]}>
                 Теорія <br /> З Практичних занять <br />
                 Доступ - 3 місяців
               </p>
-              <a href='https://t.me/yuliianes' className={[styles.tarifbtn]}>
+              <a
+                href="https://secure.wayforpay.com/button/bb16f150bc075"
+                className={[styles.tarifbtn]}
+              >
                 Придбати курс
               </a>
             </div>
@@ -401,6 +413,6 @@ const Mainblock = () => {
         </div>
       </div>
     </div>
-  )
-}
-export default Mainblock
+  );
+};
+export default Mainblock;
