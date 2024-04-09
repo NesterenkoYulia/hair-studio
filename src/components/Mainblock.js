@@ -411,7 +411,8 @@ const Mainblock = () => {
         <div className={[styles.allsliders]}>
           <ImageAndTextSlider slides={slides} />
         </div>
-        <div>
+      </div>
+      <div className={[styles.container_mainblock]}>
         <p style={{ textAlign: "left"}}>
           <strong>Правила та Умови (Terms and conditions):</strong>
           <br/>
@@ -436,10 +437,9 @@ const Mainblock = () => {
           ІПН:
           Адреса: 
           тел: +38 093 813 36 29<br/>
-          Email: korol.Julia1996@gmail.com
+          Email: korol.Julia1996@gmail.com<br/><br/>
           </p>
         </div>
-      </div>
     </div>
   );
 };
