@@ -436,8 +436,8 @@ const Mainblock = () => {
           ФОП Нестеренко Юлія Василівна<br/>
           ІПН: 26246347234743734<br/>
           Адреса: 347574528245854<br/>
-          тел: +38 093 813 36 29<br/>
-          Email: korol.Julia1996@gmail.com<br/><br/>
+          тел: <a href="tel:+380938133629">+38 093 813 36 29</a><br/>
+          Email: <a href="mailto:korol.Julia1996@gmail.com">korol.Julia1996@gmail.com</a><br/><br/>
           </p>
         </div>
     </div>
