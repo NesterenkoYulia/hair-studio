@@ -437,7 +437,7 @@ const Mainblock = () => {
           ІПН: 3518212460<br/>
           Адреса: Черкась обл, Уманський район, с. Полянецьке, вул. Миру 1<br/>
           тел: <a href="tel:+380938133629">+38 093 813 36 29</a><br/>
-          Email: <a href="mailto:korol.Julia1996@gmail.com">korol.Julia1996@gmail.com</a><br/><br/>
+          Email: <a href="mailto:korol.Julia1996@gmail.com">korol.julia1996@gmail.com</a><br/><br/>
           </p>
         </div>
     </div>
