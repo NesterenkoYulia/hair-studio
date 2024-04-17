@@ -30,7 +30,7 @@ const Main = () => {
             Переглянути програму
           </a>
           <a
-            href="hhttps://secure.wayforpay.com/button/bb16f150bc075"
+            href="https://secure.wayforpay.com/button/bb16f150bc075"
             className={[styles.main_btn2]}
           >
             Придбати курс{" "}
