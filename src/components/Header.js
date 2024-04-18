@@ -19,7 +19,7 @@ const Header = () => {
               Придбати курс
             </a>
             <br />
-            <p style={{ color: '#e1d0b9', textAlign: 'center' }}>
+            <p style={{ color: '#cfc0ab', textAlign: 'center' }}>
               * Після успішної оплати посилання автоматично надійде<br/> вам на вказаний у платіжних даних Email
             </p>
             <br />
