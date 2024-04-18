@@ -18,7 +18,8 @@ const Header = () => {
             <a className={[styles.header_buttom]} href='https://secure.wayforpay.com/button/bb16f150bc075'>
               Придбати курс
             </a>
-            <p style={{ color: 'red' }}>
+            <br />
+            <p style={{ color: 'red', textAlign: 'center', width: 600 }}>
               * Після успішної оплати посилання автоматично надійде вам на вказаний у платіжних даних Email
             </p>
             <br />
